@@ -1,0 +1,79 @@
+.container {
+
+}
+ 
+.name {
+    font-family: 'roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 17px;
+    color: rgb(100, 100, 100);
+    letter-spacing: 1.2px;
+    text-shadow: 0px 1px rgb(192, 192, 192);
+    transform: translateY(-100px);
+    text-align: center;
+}
+
+.name span {
+    margin-bottom: 5px;
+}
+
+.svg {
+    transform: rotate(-90deg);
+    animation-name: opencircle;
+    animation-duration: 1.5s; 
+}
+
+.svg circle {
+    animation-name: fillcircle;
+    animation-duration: 1.5s; 
+}
+
+.answered {
+    /* stroke-dasharray: 123.150 492.602; */
+    stroke: rgb(1, 240, 180);
+    stroke-width: 15px;
+}
+.not-answered {
+    /* stroke-dasharray: 123.150 492.602; */
+    stroke: rgba(255, 37, 37, 0.904);
+    stroke-width: 15px;
+}
+ .marked-for-review {
+    /* stroke-dasharray: 123.150 492.602; */
+    stroke: rgb(162, 0, 255);  
+    stroke-width: 15px;
+}
+.answered-marked {
+    /* stroke-dasharray: 123.150 492.602; */
+    stroke: rgb(64, 201, 255);
+    stroke-width: 15px;
+    color: rgb(0, 153, 255);
+}
+.not-visited {
+    /* stroke-dasharray: 123.150 492.602; */
+    stroke: rgb(221, 221, 221);
+    stroke-width: 15px;
+}
+
+
+/* some animations*/
+@keyframes opencircle {
+    from {
+        transform: rotate(0deg); 
+    } 
+    to  {
+        transform: rotate(-90deg);
+    }
+} 
+
+@keyframes fillcircle {
+    from {
+        stroke-dasharray: 0 376.8; 
+    }
+    to {
+
+    }
+}

@@ -1,0 +1,327 @@
+.leaderboard {
+    margin: 1% 2% 2% 2%;
+    background-color: white;
+    font-family: 'roboto' sans-serif;
+
+    border-radius: 5px;
+    min-height:60vh; 
+
+    padding: 10px 20px;
+    /* padding-top: 3%; */
+}
+
+.control {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom:2%;
+    margin-top:2% ;
+    padding: 5px 20px;
+}
+
+.control button {
+    padding: 5px 10px;
+    outline: none;
+    background-color: rgb(0, 141, 110);
+    border: 1px solid rgb(0, 141, 110);
+    color:rgb(255, 255, 255) ;
+
+    border-radius: 6px;
+
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+
+
+
+.control button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 170, 133);
+    border: 1px solid rgb(0, 170, 133);
+    
+}
+
+.control button a {
+    text-decoration: none;
+    color:rgb(255, 255, 255) ;
+}
+
+.filterCtrl {
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 50px;
+}
+
+.filterCtrl span {
+    font-size: 16px;
+    color: rgb(132, 87, 255) ;
+    letter-spacing: 0.5px;
+    padding-right: 5px;
+    
+}
+
+.subjectSelector select{
+    padding: 2px 0px;
+    outline: none;
+    border: 1.8px solid rgb(132, 87, 255);
+    border-radius: 5px;
+
+    font-size: 15px;
+    font-weight: 500;
+
+    color: rgb(132, 87, 255);
+
+    text-align: center;
+}
+
+
+.leaders {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    /* style to style leader card */
+    padding: 10px;
+     /* height: 150px; */
+    /* width: 250px; */ 
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px 4px rgb(240, 240, 240);
+}
+
+.lead1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    margin: auto 10px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    color: rgb(131, 115, 82);
+    letter-spacing: 1px;
+    font-size: 18px;
+    /* text-shadow: 0px 0.5px rgb(142, 195, 255); */
+}
+
+.right {
+    margin: auto auto;
+}
+
+.right div:nth-child(1) {
+    font-size: 16px;
+    color: rgb(151, 104, 190);
+    text-align: left;
+    margin-left: 10px;
+
+}
+
+.userbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    padding: 3px 10px ;
+    /* border: 1px solid rgb(230, 230, 230); */
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 3px 3px rgb(243, 243, 243); */
+    margin: 5px 5px;
+}
+
+.userbar:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 3px rgb(236, 235, 235);
+}
+
+.userbar span {
+    font-family: 'roboto', 'sans-serif';
+    font-size: 15px;
+    color: rgb(69, 122, 172);
+    font-weight: 400;
+    padding-left: 10px;
+    letter-spacing: 0.5px;
+
+    margin: auto 0px;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto','sans-serif';
+
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.score div:nth-child(1){
+    font-size: 16px;
+    color: rgb(151, 104, 190);
+    letter-spacing: 0.5px;
+    text-align: left;
+
+    margin-bottom: 10px;
+}
+
+.marks {
+
+}
+
+.marks span:nth-child(1) {
+    font-size: 24px;
+    color: rgb(0, 189, 132);
+    font-weight: 500;
+}
+
+.marks span:nth-child(2) {
+    font-size: 16px;
+    color: rgb(151, 151, 151);
+    font-weight: 400;
+}
+
+.marks span:nth-child(3) {
+    font-size: 24px;
+    color: rgb(121, 137, 233);
+    font-weight: 500;
+}
+.gold {
+    /* font-weight: 400;
+    color: rgb(125, 148, 175);
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-shadow: 0px 1px rgb(142, 195, 255); */
+}
+
+
+/* table classes */
+.leaderTable {
+    margin: 2% auto;
+
+    padding: 10px;
+
+
+}
+.leaderboard table {
+    margin: 2% auto;
+
+    /* background-color: rgb(241, 241, 241); */
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 3px 3px rgb(243, 243, 243) ;
+    min-width: 90%;
+
+    padding: 10px;
+}
+
+.thead {
+    /* padding: 5px; */
+
+}
+
+.headers th{
+    border: none;
+
+    border-bottom: 1px solid rgb(238, 223, 255);
+    /* padding-left:0px ;
+    padding-right: 0px; */
+    border-collapse:collapse;
+    min-width: 120px;
+
+    /* fonts */
+    font-family: 'roboto','sans-serif';
+    font-weight: 400;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: purple;
+}
+
+.tbody {
+
+}
+
+.tbody tr:hover {
+    background-color: rgb(255, 255, 255);
+
+    box-shadow: 0px 0px 4px 4px rgb(240, 240, 240);
+    z-index: 5;
+}
+
+/* .tbody .myRow:hover  {
+    background-color: rgb(227, 255, 251);
+
+    box-shadow: 0px 0px 1px 1px rgb(0, 255, 208);
+    
+    z-index: 5;
+} */
+
+.myRow {
+    background-color: rgb(227, 255, 251);
+
+    box-shadow: 0px 0px 1px 1px rgb(0, 255, 208);
+    
+    z-index: 5;
+}
+
+.myRow:hover {
+    
+}
+
+.bodyrow td {
+    padding: 3px;
+
+    /* fonts */
+    color: red;
+    letter-spacing: 0.7px;
+
+}
+
+.bodyrow td:nth-child(1) {
+    color: rgb(110, 82, 121);
+    font-size: 18px;
+    font-weight: 500;
+    /* text-shadow: 0px 1px rgb(110, 82, 121); */
+}
+
+.bodyrow td:nth-child(3) {
+    color: rgb(90, 89, 144);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.bodyrow td:nth-child(4) {
+    color: rgb(138, 108, 80);
+    font-size: 16px;
+    font-weight: 400;
+
+    text-align: center;
+}
+
+.bodyrow td:nth-child(5) {
+    color: rgb(0, 165, 137);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.bodyrow td:nth-child(6) {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+    margin-top: 6%;
+}
+.bodyrow td:nth-child(6) div{
+    color: rgb(36, 0, 121);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 5px;
+
+    /* transform: translateY(-5px); */
+}
+
+

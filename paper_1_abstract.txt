@@ -1,0 +1,21 @@
+Using machine learning for crop yield prediction cause problem like 
+    - improvident nonlinear mapping between raw data crop yield values. 
+
+But deep learning is one of the solution, in which we use - 
+    - DBN (deep belief network) , FNN (fuzzy neural network system) 
+        - DBN = probability + stats + neural network 
+        - DBN itself can solve nonlinearity problem , but not so good for model accuracy, robustness, learning speed due to 'Gradient diffusion'. 
+    - So to solve nonlinearity and Gradient diffusion we use DBN with FNN . 
+
+firstly we performs efficient pre-training technique by DBN which results in a enhanced model and a feature vector generation. 
+this feature vector then fed to FNN for processing. 
+
+in this we can get an accuracy at upto 92% .
+
+- Agronomy :- 
+    - Food demand predicted to arise from 60% to 95% till 2050. 
+    - expanding crop production using low field area is critical to achieve. 
+    - yet we do not have benchmark dataset for agrarian research because it fluctuate with cliamatic condition, kind of crops, irigation techniques etc. 
+    - deep learning has capability of -> efficient dimension reduction, analyzing nonlinearity parameters from given dataset 
+
+

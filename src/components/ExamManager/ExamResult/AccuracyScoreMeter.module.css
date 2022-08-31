@@ -1,0 +1,64 @@
+.container {
+    /* transform: translateY(-60px); */
+    margin-top: -60px;
+}
+ 
+.name {
+    font-family: 'roboto', sans-serif;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(0, 177, 133);
+    letter-spacing: 1.2px;
+    /* text-shadow: 0px 1px rgb(192, 192, 192); */
+    transform: translateY(-85px);
+    margin: auto 0px;
+    text-align: center;
+}
+
+.name span {
+    margin-bottom: 5px;
+}
+
+.svg {
+    transform: rotate(-90deg);
+    /* animation-name: opencircle;
+    animation-duration: 1.5s;  */
+}
+
+.svg circle:nth-child(2) {
+    animation-name: fillcircle;
+    animation-duration: 2.5s; 
+}
+
+.fill {
+    /* stroke-dasharray: 123.150 492.602; */
+    stroke: rgb(1, 211, 158);
+    stroke-width: 20px;
+}
+.back {
+    /* stroke-dasharray: 123.150 492.602; */
+    stroke: rgb(199, 255, 241);
+    stroke-width: 20px;
+}
+
+
+
+/* some animations*/
+@keyframes opencircle {
+    from {
+        transform: rotate(0deg); 
+    } 
+    to  {
+        transform: rotate(-90deg);
+    }
+} 
+
+@keyframes fillcircle {
+    from {
+        stroke-dasharray: 0 376.8; 
+    }
+    to {
+
+    }
+}

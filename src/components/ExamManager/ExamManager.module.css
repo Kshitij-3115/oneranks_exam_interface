@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.left {
+    /* float: left; */
+
+    position: fixed;
+    /* z-index: 1; */
+    left: 0;
+    height: 100%; 
+    width: 18%;
+    box-shadow: 2px 2px 2px 2px rgba(177, 226, 255, 0.178);
+    /* border-right: 2px solid rgb(99, 179, 255); */
+    /* background-color: red; */
+}
+
+.right {
+    margin-left: 18%;
+    /* background-color: red;  */
+    width: 82%;
+}

@@ -1,0 +1,90 @@
+
+.round {
+    padding: 9px 3px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 400; 
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 3% 3%;
+    cursor: pointer;
+}
+
+.demoRound {
+    padding: 6px;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 400; 
+    font-size: 13px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 3% 3%;
+}
+
+.notVisited {
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(161, 161, 161);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px 2px rgb(212, 212, 212);
+}
+
+.notAnswered {
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(251, 55, 55);
+    box-shadow: 0px 0px 1px 2px rgb(255, 198, 198);
+}
+
+.answered {
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(2, 170, 128);
+    box-shadow: 0px 0px 1px 2px rgb(87, 226, 207);
+}
+
+.markedToViewLater {
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(119, 43, 219);
+    box-shadow: 0px 0px 1px 2px rgb(174, 140, 253);
+}
+
+.current {
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgba(2, 133, 255, 0.767);
+    box-shadow: 0px 0px 1px 2px rgb(167, 208, 255);
+}
+
+.answeredAndMarked {
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(119, 43, 219);
+    box-shadow: 0px 0px 1px 2px rgb(174, 140, 253);
+} 
+
+.currentDot {
+    padding-top: 3px;
+    position: relative;
+    /* margin-left:0.51% ; */
+}
+
+.greenCircleFilled {
+    /* position: absolute; */
+    margin-top: -35%;
+    margin-left: 85%;
+}
+
+.greenCircleDemoFilled {
+    margin-top: -50%;
+    margin-left: 100%;
+}
+
+.greenCircleFilledActive {
+    margin-top: -29px;
+    margin-left: 85%;
+}
+
+

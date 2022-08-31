@@ -1,0 +1,27 @@
+.container {
+    display: inline-flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.container input {
+    max-width: 25%;
+}
+
+.send-code-btn {
+    padding: 3px 4px ;
+    border-radius: 4px;
+    font-weight: 300;
+    background-color: aqua;
+    margin-right: 2%;
+}
+
+.varify-code-btn {
+    padding: 3px 4px ;
+    border-radius: 4px;
+    font-weight: 300;
+    background-color: aqua;
+    margin-right: 2%;
+}
+
+

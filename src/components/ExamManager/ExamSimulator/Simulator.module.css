@@ -1,0 +1,14 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    min-width: 73%; 
+    background: rgb(255, 255, 255);
+}
+
+.right {
+    min-width: 27%;
+}

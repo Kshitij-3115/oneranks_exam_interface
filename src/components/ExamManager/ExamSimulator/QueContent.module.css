@@ -1,0 +1,19 @@
+.container {
+    padding: 2px 10px 2px 15px;
+    background-color: white;
+    font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    color: rgb(88, 88, 88);
+    letter-spacing: 0.5px;
+    border-radius: 15px;
+    /* border: 1px solid rgb(212, 212, 212); */
+    width: 90%;
+    /* text-align: center; */
+    background-color: rgba(240, 238, 238, 0.863);
+    margin:2% 0% 2% 1%;
+    line-height: 150%;
+} 
+
+.qcontent p{
+    margin:0px 5px 10px 5px;
+}

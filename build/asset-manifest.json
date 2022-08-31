@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c7ad2757.chunk.css",
+    "main.js": "/static/js/main.1dba0905.chunk.js",
+    "main.js.map": "/static/js/main.1dba0905.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d935bac7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d935bac7.js.map",
+    "static/css/2.cdfe57e5.chunk.css": "/static/css/2.cdfe57e5.chunk.css",
+    "static/js/2.c9b63c9d.chunk.js": "/static/js/2.c9b63c9d.chunk.js",
+    "static/js/2.c9b63c9d.chunk.js.map": "/static/js/2.c9b63c9d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.cdfe57e5.chunk.css.map": "/static/css/2.cdfe57e5.chunk.css.map",
+    "static/css/main.c7ad2757.chunk.css.map": "/static/css/main.c7ad2757.chunk.css.map",
+    "static/js/2.c9b63c9d.chunk.js.LICENSE.txt": "/static/js/2.c9b63c9d.chunk.js.LICENSE.txt",
+    "static/media/answered-na.0a58ea56.png": "/static/media/answered-na.0a58ea56.png",
+    "static/media/back-2400.b57f6255.jpg": "/static/media/back-2400.b57f6255.jpg",
+    "static/media/candidate-profile.61d923c2.png": "/static/media/candidate-profile.61d923c2.png",
+    "static/media/cetsky-text.e9380a89.png": "/static/media/cetsky-text.e9380a89.png",
+    "static/media/cetskyLogo.4ee6e075.jpg": "/static/media/cetskyLogo.4ee6e075.jpg",
+    "static/media/markedBtn.d14fe745.gif": "/static/media/markedBtn.d14fe745.gif",
+    "static/media/marking.4392d649.png": "/static/media/marking.4392d649.png",
+    "static/media/output-onlinegiftools.55b3e35d.gif": "/static/media/output-onlinegiftools.55b3e35d.gif",
+    "static/media/que-pallete.504abdc2.png": "/static/media/que-pallete.504abdc2.png",
+    "static/media/quick-summarybtn.0fffc078.png": "/static/media/quick-summarybtn.0fffc078.png",
+    "static/media/quickSummary.80965b3b.png": "/static/media/quickSummary.80965b3b.png",
+    "static/media/saveNext.d7627c1a.gif": "/static/media/saveNext.d7627c1a.gif",
+    "static/media/sectionctrl.79ab7e4d.gif": "/static/media/sectionctrl.79ab7e4d.gif",
+    "static/media/selecting-option.a53fe359.gif": "/static/media/selecting-option.a53fe359.gif",
+    "static/media/sign-demo.59a93a05.png": "/static/media/sign-demo.59a93a05.png",
+    "static/media/status-pallete.140c08fd.png": "/static/media/status-pallete.140c08fd.png",
+    "static/media/submit-btn.24ece51b.png": "/static/media/submit-btn.24ece51b.png",
+    "static/media/tagging-questions.dd19f2b3.gif": "/static/media/tagging-questions.dd19f2b3.gif",
+    "static/media/timer.5abd342b.gif": "/static/media/timer.5abd342b.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d935bac7.js",
+    "static/css/2.cdfe57e5.chunk.css",
+    "static/js/2.c9b63c9d.chunk.js",
+    "static/css/main.c7ad2757.chunk.css",
+    "static/js/main.1dba0905.chunk.js"
+  ]
+}

@@ -1,0 +1,105 @@
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 1%;
+
+    border-radius:10px ;
+    /* height: 70vh; */
+
+    font-family: 'roboto', sans-serif;
+}
+
+.extRow {
+    /* lets add later */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    /* padding-bottom: 20px; */
+
+}
+
+.filterRowHead {
+    align-self: flex-start;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+
+    color: rgb(91, 135, 172);
+
+    margin: auto 0px;
+}
+
+.inCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inCol span {
+    color: rgb(127, 87, 163);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    align-self:flex-start;
+
+    padding: 5px 0px 10px 5px;
+}
+
+.inRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.inRow button {
+    padding: 5px 10px;
+    margin: 0px 5px 0px 5px;
+    border-radius: 5px;
+
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.unsel:hover {
+    cursor: pointer;
+    /* border: 1.2px solid rgb(132, 87, 255); */
+    background-color: rgb(247, 245, 255);
+}
+
+.sel {
+    background-color: rgb(175, 77, 255);
+    border: 1.2px solid rgb(175, 77, 255);
+    color: white;
+}
+
+.sel:hover {
+    cursor: pointer;
+}
+
+.unsel {
+    background-color: rgb(255, 255, 255);
+    border: 1.2px solid rgb(175, 77, 255);
+    color: rgb(175, 77, 255);
+}
+
+
+
+
+
+.orderBy select{
+    padding: 2px 0px;
+    outline: none;
+    border: 1.5px solid rgb(132, 87, 255);
+    border-radius: 5px;
+
+    font-size: 15px;
+    font-weight: 500;
+
+    color: rgb(132, 87, 255);
+}
+
+
+

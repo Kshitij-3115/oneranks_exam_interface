@@ -1,0 +1,62 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 2px;
+    transform: translateX(-12px);
+}
+
+.tagsAdded {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+
+.tagline {
+    
+}
+
+.collapsible {
+    background-color: transparent;
+    color: rgb(1, 119, 204);
+    font-family: 'roboto', sans-serif;
+    cursor: pointer;
+    /* padding: px; */
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 14px;
+  }
+  .collapsible::after {
+    content : ' \002B'; 
+  }
+
+  .collapsible:hover {
+    color: rgb(6, 122, 206);
+  }
+
+  .active .collapsible:after {
+    content: ' \002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .active:after {
+    content: " \2212";
+  }
+
+  .content {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: transparent;
+    position : absolute; 
+    z-index : 2; 
+    transform: translateX(-50%);
+  }
+
+  

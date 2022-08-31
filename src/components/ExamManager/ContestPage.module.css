@@ -1,0 +1,57 @@
+.brand_head {
+    /* border: 3px solid rgba(5, 97, 173, 0.3); */
+    margin: 0;
+}
+
+.nav_left {
+    width: 2.2rem;
+    height: 7rem;
+    float: left;
+    color: rgb(140, 154, 155);
+    font-size: 3rem;
+    background-color: rgb(246, 246, 246,0.75);
+    border-radius: 0 40px 40px 0;
+    border: 0.5px solid rgb(177, 189, 200)
+}
+
+.nav_left:hover {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all ease 300ms;
+}
+
+.nav_right {
+    width: 2.2rem;
+    height: 7rem;
+    float: right;
+    font-size: 3rem;
+    color: rgb(140, 154, 155);
+    background-color: rgb(246, 246, 246,0.75);
+    border-radius: 40px 0 0 40px;
+    border: 0.5px solid rgb(177, 189, 200)
+}
+
+.nav_right:hover {
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all ease 300ms;
+}
+
+.owl_nav_cont {
+    opacity: 0;
+    transform: translateY(-18rem);
+}
+
+.brand_head:hover .owl_nav_cont{
+    opacity: 1;
+    cursor: pointer;
+    transition: all ease-in 300ms;
+}
+
+
+.c_item img {
+    height: 55vh;
+    width: 100%; 
+}
+
+/* navigation styling */

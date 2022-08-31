@@ -1,0 +1,205 @@
+.container {
+    text-align: center;
+    align-items: center;
+    font-family: 'roboto', 'sans-serif';
+    background-color: rgba(7, 156, 255, 0.1);
+    min-height: 100vh;
+    /* background-color: rgb(243, 249, 255); */
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+}
+
+.navheader {
+    font-size: 20px; 
+    color: rgb(79, 136, 187);
+    letter-spacing: 0.5px; 
+    font-weight: 400;
+    text-align: center;
+    margin: auto 2%;
+}
+
+.navigation {
+    padding-top: 5px; 
+    padding-left: 5px; 
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+}
+
+.navigation a{
+    padding: 10px 20px;  
+    text-decoration: none; 
+    color: rgb(48, 87, 138);
+    font-size: 16px;
+    letter-spacing: 0.5px; 
+}
+
+.navigation a:hover {
+    /* background-color: rgb(0, 162, 255); */
+    border-bottom: 2px solid rgb(255, 219, 177);
+    color: rgb(0, 135, 212);
+    transition: width 0.2s;
+}
+
+.navigation a:active {
+    border-bottom: 2px solid rgb(226, 147, 0);
+    color: rgb(195, 140, 67); 
+}
+
+.active { 
+    /* background-color: rgb(0, 153, 255);  */
+    border-bottom: 2px solid rgb(226, 147, 0);
+    color: rgb(195, 140, 67); 
+}
+
+
+/* SUBJECT DROPDOWN  */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    /* padding: 14px 16px; */
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+    /* background-color: red; */
+    border-bottom: 2px solid rgb(255, 219, 177);
+    color :rgb(0, 135, 212)
+}
+
+.dropbtn {
+    padding: 10px 20px;  
+    text-decoration: none; 
+    color: rgb(48, 87, 138);
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.dropbtn {
+    cursor: pointer;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #0068bd;
+    /* animation-name: marginTop;
+    animation-duration: 500ms; */
+    /* border: 1px solid rgb(214, 214, 214); */
+    border-radius: 0px 0px 10px 10px;
+    padding: 0px 5px 5px 5px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 162, 255, 0.2);
+    z-index: 1;
+
+    animation-name: dropdownSlideDown;
+    animation-duration: .2s;
+}
+
+
+ 
+.dropdownContent a {
+    float: none;
+    color: rgb(255, 255, 255);
+    /* padding: 12px 16px; */
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+    border-radius: 10px 7px 7px 10px;
+
+    border-left: 7px solid transparent;
+}
+
+.dropdownContent a:nth-child(1):hover {
+    border-left: 7px solid rgba(169, 77, 255);
+    animation-name: borderLeftWidth; 
+    animation-duration: 0.5s;
+}
+
+.dropdownContent a:nth-child(2):hover {
+    border-left: 7px solid rgba(0, 140, 255);
+    animation-name: borderLeftWidth;
+    animation-duration: 0.5s;
+}
+
+.dropdownContent a:nth-child(3):hover {
+    border-left: 7px solid rgba(253, 0, 240);
+    animation-name: borderLeftWidth;
+    animation-duration: 0.5s;
+}
+
+.dropdownContent a:hover {
+    background-color: #005092d8;
+    color: #ffffff;
+    border-bottom: 0px solid white;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.faAngleDown {
+    margin-top: -2px;
+    padding-top: 5px;
+}
+
+.SiGoogleanalytics {
+    margin-right: 10px;
+    color: rgb(0, 153, 255);
+    /* color: rgb(112, 156, 194); */
+}
+
+/* ----------- content ------------ */
+.content {
+    min-height: 100vh;
+    /* background-color: rgb(210, 255, 245); */
+}
+
+
+@keyframes marginTop {
+    from {
+        margin-top: 20px;
+    }
+    to {
+        margin-top: 0px;
+    }
+}
+
+@keyframes borderLeftWidth {
+    from {
+        border-left-width: 0;
+    }
+    to {
+        border-left-width: 7;
+    }
+}
+
+@keyframes dropdownSlideDown {
+    0% {height: 0px;}
+    10% {height: 13px;}
+    20% {height: 26px;}
+    30% {height: 39px;}
+    40% {height: 52px;}
+    50% {height: 65px;}
+    60% {height: 78px;}
+    70% {height: 91px;}
+    80% {height: 104px;}
+    90% {height: auto;}
+    100% {height: auto;}
+}

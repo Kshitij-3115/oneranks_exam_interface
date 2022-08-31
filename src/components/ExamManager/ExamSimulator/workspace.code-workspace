@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../api"
+		},
+		{
+			"path": "../../../../../client"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "react_section10"
+	}
+}

@@ -1,0 +1,89 @@
+.signup {
+    display: flex;
+    justify-content: center;
+}
+
+.cetsky {
+    display:inline-flex ;
+    justify-content: center;
+    border-bottom: 2px solid rgba(2, 154, 255, 0.637);
+    width: 100%;
+}
+
+.cetsky p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(104, 104, 104); 
+    letter-spacing: 3px; 
+}
+
+.cetsky img {
+    width:34%; 
+    height:auto; 
+}
+
+.form {
+    margin-top: 10%;
+    max-width: 90%; 
+    justify-content: center;
+    /* margin-left: 5%; */
+    padding: 4%;
+    border: 1px solid rgb(3, 163, 255);
+    /* box-shadow: 0px 0px 1px 3px rgb(234, 251, 255); */
+    z-index: 5;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.87);
+}
+
+.btnSubmit {
+    width: 90%;
+    margin-top: 5%;
+    padding: 7px 0px;
+    background-color: rgb(39, 155, 116);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    border: 1px solid rgb(77, 255, 195); 
+    border-radius: 5px;
+    text-shadow: 0px 0.5px green;
+}
+
+.btnSubmit:hover {
+    cursor: pointer;
+    border: 1px solid rgb(77, 255, 195);
+    background-color: rgb(5, 141, 96); 
+}
+
+.btnSubmit:disabled { 
+    cursor:not-allowed;
+    border: 1px solid rgb(1, 172, 129);
+    background-color: rgb(74, 200, 158); 
+}
+
+.validatebtn {
+    text-align: center;
+}
+
+.validatebtn button {
+    padding: 5px;
+    width: 80%; 
+    border-radius: 6px; 
+    border: 1px solid rgb(0, 67, 122);
+    box-shadow: 0px 0px 1px 1px rgb(225, 240, 255);
+    margin-top: 5px;
+    font-family: sans-serif;
+    letter-spacing: 0.5px; 
+    color: rgb(42, 101, 141);
+    background-color: white; 
+}
+
+.validatebtn button:hover {
+    border: 1px solid rgb(0, 131, 238);
+    background-color: rgb(0, 131, 238);
+    color: white;
+    cursor: pointer;
+    animation-duration: 50ms;
+    animation:ease-in
+}

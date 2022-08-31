@@ -1,0 +1,67 @@
+.container {
+
+}
+
+.buttongroup {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    padding-bottom: 5px;
+}
+.btn {
+    padding: 6px 30px;
+    width: 40%;
+    font-weight: 400;
+    border-collapse: collapse;
+    border: 1px solid rgb(160, 58, 255);
+    background-color: white;
+    font-family: 'roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgb(160, 58, 255);
+    color: rgb(168, 76, 255);
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.active {
+    background-color: rgb(160, 58, 255);
+    color : white; 
+    animation-name: buttonactive;
+    animation-duration: 1s;
+}
+
+
+
+.inactive:hover {
+    background-color: rgb(246, 242, 255);
+    color: rgb(160, 58, 255);
+}
+
+/* left button & right buttons */ 
+.left {
+    border-radius: 8px 0px 0px 8px; 
+    border-right: 0px;
+}
+
+.right {
+    border-radius: 0px 8px 8px 0px; 
+}
+
+.examIns {
+    height: 78vh;
+    overflow-y: scroll;
+}
+
+
+/* some animations */
+@keyframes buttonactive {
+    from {
+        background-color: rgb(200, 146, 251);
+    }
+    to {
+        background-color: rgb(160, 58, 255);
+    }
+} 

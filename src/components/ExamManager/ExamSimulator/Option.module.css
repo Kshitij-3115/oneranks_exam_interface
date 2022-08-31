@@ -1,0 +1,55 @@
+.container {
+    padding: 5px;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    max-width: 70%; 
+    min-width: 70%;
+    cursor: pointer;
+    font-family: 'roboto', 'sans-serif';
+
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 10px;
+}
+
+.container-selected {
+    border: 1px solid rgb(146, 24, 177); 
+    background-color: rgb(252, 233, 255);
+}
+
+.opt {
+    width: 25px;
+    height: 25px;
+    padding: 4px 7px;
+    border-radius:50%;
+    background-color: rgba(214, 6, 204, 0.863);
+    border: 1px solid white;
+    box-shadow: 0px 0px 1px 2px rgb(255, 205, 253);
+    color: white;
+    margin: auto 4px;
+    text-align: center;
+    vertical-align:center;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.opt-radio {
+    position: absolute;
+    left: -9999px;
+}
+
+.opt-span {
+    padding: 4px 0px;
+    font-family: 'roboto';
+    margin-left: 1%;
+    margin-top: 0.5%;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: rgb(116, 116, 116);
+}
+
+.opt-span-selected {
+    color: rgb(99, 17, 124);
+}
+

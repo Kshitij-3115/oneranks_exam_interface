@@ -1,0 +1,42 @@
+.container {
+    width: 5%; 
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.container span {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'roboto', sans-serif;
+    margin-top: 5px;
+}
+
+.svg {
+    transform: rotate(-90deg);
+}
+
+.svg circle {
+    transition: stroke-dashoffset 1s linear;
+    stroke-width: 4px;
+    
+}
+
+.bar-bg {
+    stroke-dashoffset: 10%;
+    stroke: rgb(0, 179, 134); 
+}
+
+
+.bar {
+    /* stroke: rgb(255, 216, 216); */
+    stroke: rgb(113, 255, 220);
+}
+
+.value {  
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(119, 43, 219);
+    transform: translateY(-210%);
+}

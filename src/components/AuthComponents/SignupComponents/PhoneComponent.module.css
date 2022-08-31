@@ -1,0 +1,74 @@
+.main-div {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-inp-label {
+    padding: 2%;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    /* margin-bottom: 0%; */
+}
+
+.phone-inp-label::after{
+    content: ' *';
+    color: red;
+}
+
+.invalid label {
+    color :#ff0000
+}
+
+.demo {
+    color :red
+}
+
+.demo1 {
+    background-color: green;
+}
+
+.phone-inp {
+    display: inline-flex;
+}
+
+
+
+.phoneInpInput {
+    padding :8px 10px 8px 45px; 
+    border: 1px solid rgb(199, 199, 199);
+    color:rgb(95, 95, 95);
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 6px;
+    outline: none;
+}
+
+.phoneInpInput:focus {
+    border: 1px solid rgb(3, 98, 223);
+    box-shadow: 0px 0px 1px 3px rgb(168, 208, 253);
+    color:rgb(31, 99, 177);
+}
+
+.invalid {
+    padding :8px 10px 8px 45px; 
+    border: 1px solid rgb(255, 70, 70);
+    width: 100%;
+    border-radius: 6px;
+    outline: none;
+    color:rgb(95, 95, 95);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.invalid:focus {
+    border : 1px solid rgb(255, 70, 70);  
+    box-shadow : 0px 0px 1px 3px rgb(255, 197, 197);
+    color:rgb(31, 99, 177);
+}
+
+
+

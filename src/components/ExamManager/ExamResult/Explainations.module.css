@@ -1,0 +1,15 @@
+.container {
+
+}
+
+.contentBody {
+    padding: 10px; 
+    background-color: white;
+    margin: 0px 1%;
+
+    border-radius: 10px;
+
+    height: 88vh;
+    overflow-y: scroll;
+}
+

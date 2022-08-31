@@ -1,0 +1,98 @@
+.container {
+    font-family: 'roboto', sans-serif;
+    padding: 5px;
+    margin-top: 0%;
+}
+
+.container table {
+    border-collapse: collapse;
+    border: 1px solid rgb(41, 41, 41);
+    border-radius: 10px ;
+    overflow: hidden; 
+    box-shadow: 0px 0px 3px 3px rgb(231, 231, 231);
+  
+}
+
+.container td,th {
+    border: 0.5px solid #8fd4ffbe;
+    text-align: center;
+    padding: 8px;
+    /* border-radius: 4px; */
+}
+
+.container th {
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(16, 0, 41);
+    letter-spacing: 0.5px;
+}
+
+.catagory1 th{
+    color: rgb(0, 148, 123);
+    background-color: rgb(214, 255, 248);
+}
+
+.catagory2 th{
+    color: rgb(255, 36, 36);
+    background-color: rgb(255, 246, 246);
+}
+
+.catagory3 th{
+    color: rgb(127, 51, 199);
+    background-color: rgb(246, 236, 255);
+}
+
+.catagory4 th{
+    color: rgb(0, 121, 221);
+    background-color: rgb(237, 247, 255);
+}
+
+.catagory5 th{
+    color: rgb(95, 95, 95);
+    /* background-color: rgb(233, 233, 233); */
+}
+
+.total th {
+    background-color: rgb(255, 248, 225);
+    color: rgb(85, 69, 0);
+}
+
+.head {
+    background-color: rgb(243, 243, 243);
+}
+
+.head th:nth-child(1) {
+    background-color: white;
+}
+
+.head th:nth-child(5){
+    background-color: rgb(255, 248, 225);
+    color: rgb(85, 69, 0);
+}
+
+.cat td:nth-child(2) {
+    color: rgb(95, 95, 95);
+    font-weight: 300;
+}
+.cat td:nth-child(3) {
+    color: rgb(95, 95, 95);
+    font-weight: 300;
+}
+.cat td:nth-child(4) {
+    color: rgb(95, 95, 95);
+    font-weight: 300;
+}
+
+.tot {
+    color: rgb(167, 108, 0);
+}
+
+.total td{
+    color: rgb(167, 108, 0);
+}
+
+.total td:nth-child(5) {
+    color: rgb(0, 138, 96);
+    font-weight: 500;
+}

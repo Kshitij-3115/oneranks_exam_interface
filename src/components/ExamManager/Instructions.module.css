@@ -1,0 +1,195 @@
+.container {
+    align-items: center;
+    min-width: 50%;
+    max-width: 80%;
+    margin: 10px auto;
+}
+.buttongroup {
+    /* position at top  */
+    top: 6vh;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    padding-bottom: 5px;
+    padding: 20px ;
+    background-color: white;
+}
+.btn {
+    padding: 6px 30px;
+    width: 40%;
+    font-weight: 400;
+    border-collapse: collapse;
+    border: 1px solid rgb(0, 140, 255);
+    background-color: white;
+    font-family: 'roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgb(0, 140, 255);
+    /* color: rgb(168, 76, 255); */
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.active {
+    background-color: rgb(0, 140, 255);
+    color : white; 
+    animation-name: buttonactive;
+    animation-duration: 1s;
+}
+
+
+
+.inactive:hover {
+    background-color: rgb(236, 248, 255);
+    color: rgb(0, 140, 255);
+}
+
+/* left button & right buttons */ 
+.left {
+    border-radius: 8px 0px 0px 8px; 
+    border-right: 0px;
+}
+
+.right {
+    border-radius: 0px 8px 8px 0px; 
+}
+
+.confirmation {
+    margin-top: 10%;
+    margin-bottom: 100px;
+    padding: 5px;
+    padding-top: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'roboto', 'sans-serif';
+}
+
+.agreeInp {
+    display: flex;
+    flex-direction: row;
+
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(0, 114, 190);
+    letter-spacing: 1px;
+
+}
+
+.agreeInp div {
+    /* background-color: red; */
+}
+
+.agreeInp input {
+    padding: 4px;
+    margin-right: 10px;
+    background-color: red;
+}
+
+
+/* STYLE THE CHECKBOX */
+.inpBox {
+    display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-family: 'roboto', 'sans-serif';
+  font-size: 17px;
+  letter-spacing: 1px;
+  color: #2c6695;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.inpBox input {
+    position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 153, 255);
+    border-radius: 5px;
+  }
+
+  /* On mouse-over, add a grey background color */
+.inpBox:hover input ~ .checkmark {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 153, 255);
+    box-shadow: 0px 0px 2px 3px rgb(203, 239, 255);
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .inpBox input:checked ~ .checkmark {
+    background-color: #008cff;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .inpBox input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .inpBox .checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+  /* style button  */
+  .testTrigger a{
+    text-decoration: none;
+    margin-bottom: 5px;
+    padding: 8px 20px;
+    border: 2px solid rgb(0, 185, 154);
+    background-color: rgb(0, 185, 154);
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 10px;
+}
+
+.testTrigger a:hover{
+    cursor: pointer;
+    border: 2px solid rgb(0, 202, 169);
+    background-color: rgb(0, 202, 169);
+}
+
+
+@keyframes buttonactive {
+    from {
+        background-color: rgb(158, 216, 255);
+    }
+    to {
+        background-color: rgb(0, 153, 255);
+    }
+} 

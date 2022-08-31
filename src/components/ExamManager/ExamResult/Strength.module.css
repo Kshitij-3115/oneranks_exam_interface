@@ -1,0 +1,495 @@
+.container {
+
+    font-family: 'roboto', sans-serif;
+}
+
+.dataBody {
+    padding: 10px; 
+    background-color: white;
+    margin: 0px 1%;
+
+    border-radius: 10px;
+
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+.dataTable {
+    border-collapse: collapse;
+    margin: 10px auto;
+
+    /* height: 20vh;
+    overflow-y: scroll; */
+}
+
+.thead {
+    /* padding: 6px 10px 30px 10px;  */
+    border-collapse: collapse;
+}
+.hrow th {
+    padding: 5px 10px 10px 10px;
+    /* border: 1px solid green; */
+    border: none;
+    border-bottom: 1px solid rgb(218, 192, 218);
+    min-width: 170px;
+
+    /* fonts */
+    font-size: 16px;
+    color: rgb(55, 0, 107);
+    letter-spacing: 0.7px;
+    font-weight: 400;
+}
+
+.tbody {
+    
+}
+
+.tbody tr td {
+    padding: 10px;
+}
+
+.tbody tr:hover {
+    /* background-color: rgb(255, 255, 255);
+
+    box-shadow: 0px 0px 4px 4px rgb(240, 240, 240);
+    z-index: 5; */
+}
+
+.tbody tr td:nth-child(1) {
+    font-size: 15.5px;
+    color: rgb(0, 75, 195);
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+
+.tbody tr td:nth-child(2) {
+    font-size: 14px;
+    color: rgb(146, 106, 192);
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+
+.tbody tr td:nth-child(4) {
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    
+    color: rgb(1, 90, 255);
+}
+
+.qlook {
+    padding: 5px 10px;
+    /* border: 0px solid rgb(0, 163, 122); */
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(66, 3, 167);
+
+    font-size: 14px;
+    color: rgb(66, 3, 167);
+    letter-spacing: 0.7px;
+    font-weight: 300;
+}
+
+.qlook:hover {
+    cursor: pointer;
+    border: 1px solid rgba(138, 49, 255, 0.7);
+    background-color: rgb(121, 38, 255);
+    color: white;
+}
+
+.appearBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+.qno {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 4px;
+}
+
+.qno::after {
+    content: ',';
+}
+
+.corr {
+    color : rgb(0, 192, 134); 
+    /* color: rgb(255, 235, 185); */
+    
+}
+
+.incorr {
+    color: rgb(255, 0, 0);
+}
+
+.nans {
+    color: rgb(172, 160, 211);
+}
+
+.strengthLabel {
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+
+/* for quick look  */
+.cross {
+    float: right;
+    margin-top: -10px;
+    color: red;
+    margin-right: -5px;
+}
+
+.cross:hover {
+    color: rgb(255, 234, 234);
+    cursor: pointer;
+    background-color: rgb(255, 86, 86);
+    border-radius: 50%;
+    border: 0px;
+}
+
+/* quick look classes */
+.quickheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    transform: translateY(-10px);
+}
+
+.ql {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: rgb(50, 0, 131);
+    margin-right: 20%;
+    transform: translateY(1.6px);
+
+    
+}
+
+.rightThumb {
+    /* animation-name: backAfront;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+
+    animation-name: frontAback;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite; */
+}
+
+.quickbody {
+    height: 70vh;
+    overflow-y : scroll;
+    /* background-color: rgb(222, 255, 212); */
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+
+/* QUEFRAME COMPONENT CLASSES */
+.queFrame {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 3%;
+
+    border: 1px solid rgb(236, 226, 255);
+    box-shadow: 0px 0px 1px 1px rgb(244, 238, 255);
+    border-radius: 10px 10px 0px 0px;
+
+    /* padding-bottom: 10px; */
+}
+
+.topBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(247, 243, 255);
+
+    border-radius: 10px 10px 0px 0px;
+}
+
+.queno { 
+    padding: 5px;
+    margin-left: 5px;
+    /* background-color: rgb(0, 158, 111); */
+    border: 1px solid rgb(49, 0, 112);
+    /* box-shadow: 0px 0px 2px 2px rgb(184, 255, 234); */
+    border-radius: 50%;
+    color: rgb(50, 0, 143);
+
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.queStatus {
+     margin-left: 10px;
+
+    /* fonts */
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    font-weight: 400; 
+}
+.queStatusNA {
+    color: rgb(54, 0, 116);
+}
+.queStatusCorr {
+    color: rgb(0, 167, 111);
+}
+
+.queStatusIncorr {
+    color: rgb(245, 70, 70);
+}
+
+.queInfo {
+    
+    display: flex;
+    flex-direction: row;
+
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    /* transform: translateY(10px); */
+    margin: auto 10px;
+}
+.queInfoSub {
+    padding-right: 5px;
+    color: rgb(128, 97, 160);
+}
+
+.queInfoStand {
+    padding-left: 5px;
+    color: rgb(128, 97, 160);
+}
+
+.extraInfo {
+    display: flex;
+    flex-direction: row;
+
+
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 2px solid rgb(1, 163, 128);
+}
+
+.timeSpent {
+    display: flex;
+    flex-direction: row;
+
+    padding-left: 8px;
+    margin-right: 10px;
+
+    color: rgb(93, 133, 160);
+}
+
+.avgPublicTime {
+    display: flex;
+    flex-direction: row;
+
+    padding-left: 8px;
+    border-left: 2px solid rgb(1, 163, 128);
+
+    color: rgb(128, 97, 160);
+    color: rgb(93, 133, 160);
+}
+
+.globalAccuracy {
+    margin-left: 5px;
+    /* margin-right: 5px; */
+    padding-left : 8px; 
+    border-left :2px solid rgb(1, 163, 128); 
+    color: rgb(136, 109, 161);
+}
+
+.queC {
+    padding: 10px 20px 10px 20px;
+    margin-top: 5px;
+    font-size: 14.8px;
+    font-weight: 400;
+
+    color: rgb(138, 114, 175);
+    /* color: rgb(130, 96, 180); */
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+/* OPTBAR COMPONENT CLASSES */
+.optbar {
+    display: flex;
+    flex-direction: row; 
+
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto;
+
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.optdiv {
+    width: 20px;
+    height: 20px;
+    margin: auto 5px;
+}
+.optLeft { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.opt { 
+    width: 20;
+    height: 20;
+
+    padding: 3px 6px;
+    /* background-color: rgb(134, 109, 175); */
+
+    border-radius: 50%;
+    /* fonts */
+    font-size: 12px;
+    font-weight: 400; 
+    /* align */
+}
+
+/* classes to fill up correct-incorrect status */
+.normalOpt {
+    border: 1px solid rgb(129, 98, 180);
+    color: rgb(53, 1, 138);
+}
+
+.greenOpt {
+    border: 1px solid rgb(0, 168, 115);
+    background-color: rgb(0, 168, 115);
+    color: rgb(255, 255, 255);
+} 
+
+.redOpt {
+    border: 1px solid rgb(224, 87, 87);
+    background-color: rgb(224, 87, 87);
+    color: rgb(255, 255, 255);
+}
+
+.normalOptBar {
+    background-color: white;
+    border: 0.5px solid rgb(132, 98, 185);
+    color: rgb(132, 119, 156)
+}
+
+.greenOptBar {
+    background-color: rgb(224, 255, 248);
+    border: 0.5px solid rgb(0, 163, 125);
+    color: rgb(0, 163, 125);
+}
+
+.redOptBar {
+    background-color: rgb(255, 238, 238);
+    border: 0.5px solid rgb(223, 79, 79);
+    color: rgb(223, 79, 79);
+}
+
+/* ------------------------------------------------ */
+
+.optC {
+    /* fonts */
+    font-size: 14.8px;
+    font-weight: 400; 
+    color: rgb(132, 119, 156);
+    padding: 5px;
+}
+ 
+.check {
+    /* float: right; */
+    margin-right: 5px;
+    /* transform: translateY(5px); */
+    margin: auto 5px;
+}
+
+
+/* solution collapsible */
+.solution {
+    /* background-color: rgb(132, 114, 172); */
+    margin-top: 10px;
+}
+
+.collapsible {
+    background-color: rgb(252, 249, 255);
+    color: rgb(114, 76, 163);
+    cursor: pointer;
+    padding: 6px 10px;
+    width: 100%;
+    border: 0px solid grey;
+    /* border-radius: 0px 0px 10px 10px; */
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.active, .collapsible:hover {
+    background-color: rgb(252, 249, 255);
+}
+  
+.collapsible:after {
+    content: '\002B';
+    color: rgb(114, 76, 163);
+    font-weight: bold;  
+    font-size: 20px;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+  }
+
+.content {
+    padding: 0 5px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #ffffff;
+    border-radius: 0px 0px 10px 10px;
+
+    /* fonts */
+    color: rgb(132, 119, 156);
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+@keyframes backAfront {
+    from {
+        transform: translateX(0px); 
+    }
+    to {
+        transform: translateX(5px);
+    }
+}
+
+@keyframes frontAback {
+    from {
+        transform: translateX(5px); 
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+
+

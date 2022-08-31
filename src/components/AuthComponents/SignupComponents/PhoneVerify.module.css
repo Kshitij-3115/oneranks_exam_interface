@@ -1,0 +1,94 @@
+.cross {
+    float: right;
+    margin-top: -10px;
+    color: red;
+    margin-right: -5px;
+}
+
+.cross:hover {
+    color: rgb(255, 234, 234);
+    cursor: pointer;
+    background-color: rgb(255, 86, 86);
+    border-radius: 50%;
+    border: 0px;
+}
+
+.label {
+text-align: center;
+margin-top: 8%;
+color: rgb(0, 65, 204);
+font-weight: 400;
+letter-spacing: 0.5px;
+}
+
+.head {
+    font-family: sans-serif;
+    letter-spacing: 1px; 
+    color: blueviolet;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.send-otp {
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    width: 80%; 
+    margin-left:8% ;
+    font-size: 15px;
+    color: rgb(255, 255, 255); 
+    margin-top: 1%;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    background-color: rgb(0, 153, 255);
+}
+
+.send-otp:hover {
+    border: 1px solid rgb(0, 122, 204);
+    background-color: rgb(0, 122, 204);
+    transition-delay: 100ms;
+    animation: ease-in;
+    cursor: pointer;
+}
+
+
+.enter-otp {
+    display: flex;
+    align-items: center;
+    min-width: 100%;
+    margin-top: 5%;
+}
+
+.resend {
+    display: flex;
+    margin-top: 4%;
+    font-size: 14px; 
+}
+
+.resend p {
+    margin: 4% auto;
+}
+
+.resendbtn {
+    padding:6px; 
+    border:1px solid rgb(66, 0, 173); 
+    letter-spacing: 0.5px;
+    color: rgb(66, 0, 173);
+    font-size: 13px;
+    border-radius: 4px; 
+    background-color: white;
+    margin: auto auto;
+}
+
+.resendbtn:hover {
+    border:0px solid rgb(66, 0, 173); 
+    background-color: rgba(35, 1, 116, 0.746);
+    color: rgb(255, 255, 255);
+    transition-delay: 100ms; 
+    animation: ease-in;
+    cursor: pointer;
+}
+

@@ -1,0 +1,180 @@
+.container {
+    font-family: 'roboto', 'sans-serif';
+    padding:10px; 
+    margin-top: 2%; 
+}
+
+.row {
+    margin-top: 2%;
+    display: flex; 
+    flex-direction: 'row'; 
+    justify-content: space-evenly;
+}
+
+.card {
+    background-color: white; 
+    padding: 10px;
+    border: 0px solid red; 
+    border-radius: 5px;
+    min-width: 150px;
+    letter-spacing: 0.5px;
+
+    box-shadow: 0px 0px 2px 2px rgba(177, 215, 255, 0.637);
+
+    /* height: 50vh; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.title {
+    font-weight: 400;
+    color: rgb(122, 122, 122);
+
+    /* text-shadow: 0px 0.5px rgb(126, 126, 126); */
+}
+
+.content {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 23px; 
+}
+
+.total { 
+    color: rgb(0, 187, 146);
+}
+
+.p {
+    color: rgba(169, 77, 255, 0.726);
+}
+
+.c {
+    color: rgba(0, 140, 255, 0.678);
+    /* color: rgb(0, 162, 255); */
+}
+
+.m {
+    color: rgba(253, 0, 240, 0.63);
+}
+
+.b {
+
+}
+
+.alphaIcon {
+    margin: auto 5px;
+    font-weight: 500;
+    line-height: 25px;
+    font-size: 22px;
+    padding: 10px 14px;
+    border-radius: 50%; 
+}
+
+.alphaP {
+    color: rgb(163, 64, 255);
+    background-color: rgba(210, 162, 255, 0.26); 
+}
+.alphaC {
+    color: rgb(0, 195, 255);
+    background-color: rgba(205, 243, 255, 0.644);
+}
+.alphaM {
+    color: rgb(253, 0, 241);
+    background-color: rgba(253, 165, 249, 0.26);
+}
+
+.iconAlign {
+    /* padding-top: 30px;  */
+    padding: 5px 6px;
+    background-color: rgba(4, 250, 209, 0.185);
+    border-radius: 50%; 
+    margin: auto 10px;
+    /* margin-right: 10px; */
+}
+
+.exam-beh-back {
+    background-color: rgba(255, 228, 187, 0.342);
+    color: green;
+}
+
+.beh-rating {
+    color : rgb(255, 192, 19)
+}
+
+/* CHART CARD */
+.overallTimeChart {
+    padding: 20px;
+    /* margin-top: 2%; */
+    background-color: white;
+    border-radius: 10px;
+    width: 85%;
+    box-shadow: 0px 0px 2px 2px rgba(177, 215, 255, 0.637);
+    border: 0px solid red;
+}
+
+.overallTimeChart span {
+    color: rgb(149, 168, 185);
+    font-weight: 400;
+}
+
+.ocard {
+    padding: 0;
+    
+    background-color: white; 
+    border: 0px solid red; 
+    border-radius: 10px;
+    min-width: 150px;
+    letter-spacing: 0.5px;
+    height: 240px;
+    box-shadow: 0px 0px 2px 2px rgba(177, 215, 255, 0.637);
+}
+.DataTabletitle {
+    font-family: 'roboto', 'sans-serif';
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 0px solid red; 
+    border-radius: 10px 10px 0px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255) ;
+    background-color: rgba(123, 84, 149, 0.794);
+
+}
+
+.dataTable {
+    padding:5px; 
+    text-align: justify;
+}
+
+.dataTable tr td:nth-child(1) {
+    color: rgb(117, 104, 136);
+    /* color: rgb(0, 230, 172);  */
+}
+
+.dataTable tr td:nth-child(3) {
+    color :rgb(124, 48, 223); 
+}
+
+.barcard {
+    padding: 5px;
+    
+    background-color: white; 
+    border: 0px solid red; 
+    border-radius: 10px;
+    min-width: 350px;
+    letter-spacing: 0.5px;
+    height: 270px;
+    box-shadow: 0px 0px 2px 2px rgba(177, 215, 255, 0.637);
+}
+
+.stdTopics {
+    font-family: 'roboto', 'sans-serif';
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 0px solid red; 
+    border-radius: 10px 10px 0px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(73, 135, 187) ;
+}

@@ -1,0 +1,188 @@
+.envelopeBox {
+    background-color: white;
+    padding: 10px;
+    margin: 2% 1% 1% 1% ; 
+
+    min-height:60vh;
+
+    border-radius: 10px;
+    font-family: 'roboto', 'sans-serif';
+}
+
+.examExpReview {
+
+    margin: 1% auto;
+    min-width: fit-content;
+    max-width: 50%;
+    /* padding: 0px 15px; */
+    border: 1px solid rgb(243, 243, 243);
+    border-radius: 5px;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.innerDiv {
+    padding: 5px 15px;
+}
+
+.resbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.que {
+    margin-right: 8%;
+
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+
+    color: rgb(70, 108, 134);
+
+    vertical-align: center;
+
+}
+
+.yes {
+    margin-right: 4%;
+}
+
+.yes button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 4px 8px;
+    border: 1px solid rgb(0, 153, 115);
+    background-color: white;
+    border-radius: 4px;
+    color: rgb(0, 153, 115);
+    
+    /* color: rgb(77, 183, 253); */
+
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.yes button:hover {
+    cursor: pointer;
+    background-color: rgb(0, 153, 115);
+    color: white;
+}
+
+.no button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 4px 8px;
+    border: 1px solid rgb(207, 24, 0);
+    background-color: white;
+    border-radius: 4px;
+    color: rgb(207, 24, 0);
+    
+
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.no button:hover {
+    cursor: pointer;
+    background-color: rgb(207, 24, 0);
+    color: white;
+}
+.thankbar {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(84, 136, 170);
+    letter-spacing: 0.5px;
+    
+}
+.bar {
+    height: 5px;
+    background-color: rgb(171, 205, 228);
+
+    animation-name: decreaseBar;
+    animation-duration: 3s;
+}
+
+.optionalComment {
+    
+}
+
+.message {
+    margin: auto 1%;
+    font-family: 'roboto', sans-serif;
+}
+
+.message h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(0, 165, 124);
+    letter-spacing: 0.5px;
+    /* color: rgb(233, 233, 233); */
+}
+
+.envelope {
+
+    padding: 10px;
+    margin-top: 2%;
+    margin: 2% auto ;
+    border: 3px dotted rgb(202, 202, 202);
+    border-radius: 14px;
+
+    min-width: 50%;
+    max-width: 60%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.envelopeShow {
+    margin: 0% auto;
+    margin-top: 2%;
+    max-width: fit-content;
+    transition: transform 0.2s linear;
+}
+.envelopeShow:hover {
+    transform: translateY(80px);
+    transition-delay: 0.2s;
+}
+
+.envelope {
+    font-weight: 400;
+    color: rgb(144, 154, 182);
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.countdown {
+    margin: auto auto;
+    padding: 10px;
+}
+
+.countdown h4 {
+    font-size: 17   px;
+    font-weight: 400;
+    color: rgb(128, 128, 128);
+    letter-spacing: 0.5px;
+}
+
+.counter span {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(103, 138, 255);
+}
+
+@keyframes decreaseBar {
+    0% {
+        width: 100%;
+    }
+
+    
+    100% {
+        width: 0%;
+    }
+
+}
+

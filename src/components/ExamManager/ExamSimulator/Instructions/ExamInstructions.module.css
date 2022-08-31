@@ -1,0 +1,72 @@
+.container {
+    font-family: 'roboto', sans-serif;
+}
+
+.header {
+    text-align: center;
+    color: rgb(53, 89, 90);
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 4%;
+    letter-spacing: 1px;
+    animation-name: moveupheader;
+    animation-duration: 0.5s;
+}
+.header span {
+    color: rgb(0, 177, 124);
+    font-weight: 400;
+}
+
+.header p {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(246, 0, 0);
+}
+
+.list {
+    list-style-type:none;
+    /* transform: translateX(30px); */
+}
+
+.list li {
+    margin-top: 3%;
+    font-weight: 400;
+    color: rgb(56, 56, 56);
+
+    letter-spacing: 0.8px;
+    line-height: 22px;
+    animation-name: moveup;
+    animation-duration: 1.5s;
+}
+
+.list li:nth-child(1) {
+    font-weight: 400;
+    color: rgb(56, 56, 56);
+    letter-spacing: 1px;
+}
+
+.list li:nth-child(1) div {
+    text-align: center;
+    font-weight: 400;
+    color: rgb(0, 98, 209);
+    padding-top: 4px;
+}
+
+
+@keyframes moveup {
+    from {
+        margin-top: 30%;
+    }
+    to {
+        margin-top: 3%;
+    }
+}
+
+@keyframes moveupheader {
+    from {
+        margin-top: 30%;
+    }
+    to {
+        margin-top: 4%;
+    }
+}

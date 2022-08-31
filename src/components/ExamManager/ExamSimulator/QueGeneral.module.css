@@ -1,0 +1,39 @@
+.container {
+    background-color: white; 
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'roboto', 'sans-serif';
+    font-weight: 400;
+    margin-top: 1%;
+}
+
+.queType {
+    padding: 4px; 
+    color: rgb(129, 109, 75);
+    font-size: 16px; 
+    letter-spacing: 1px;
+}
+
+.positive {
+    padding: 5px 10px;
+    color: rgb(18, 100, 18);
+    font-weight: 400; 
+    font-size: 14px; 
+    background-color: rgb(185, 251, 220);
+    border-radius: 10px; 
+    margin-right: 5px; 
+    letter-spacing: 0.5px;
+}
+
+.negative {
+    padding: 5px 10px;
+    color: rgb(255, 0, 0);
+    font-weight: 400; 
+    font-size: 14px; 
+    background-color: rgb(255, 232, 232);
+    border-radius: 10px; 
+    margin-right: 5px;
+    letter-spacing: 0.5px;
+}

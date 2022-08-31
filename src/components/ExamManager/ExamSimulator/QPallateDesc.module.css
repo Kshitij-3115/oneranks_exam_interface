@@ -1,0 +1,43 @@
+.container {
+    padding: 1%;
+    /* margin-right: -100px; */
+}
+
+.desc { 
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+    margin: 0px 0px;
+}
+
+.descC {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    padding: 2px 5px;
+    
+}
+
+.descC span {
+    padding: 4px;
+    font-size: 14px; 
+    min-width:25%;
+    max-width: 63%; 
+    font-family: 'roboto', 'sans-serif';
+    font-weight: 400;
+    /* letter-spacing: 0.3px; */
+    color: rgb(111, 129, 149);
+    padding: 5px;
+    /* margin-top: -4px; */
+}
+
+.descI {
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-family: 'roboto', 'sans-serif';
+    font-weight: 400;
+    color: rgb(95, 111, 129);
+    padding: 0px;
+    margin-top: -12px;
+}

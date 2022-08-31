@@ -1,0 +1,48 @@
+.container {
+    font-family: 'roboto', sans-serif;
+}
+
+.cross {
+    float: right;
+    margin-top: -10px;
+    color: red;
+    margin-right: -5px;
+}
+
+.note {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    margin-top: 2%; 
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+
+.circles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin-top: 5%;
+}
+
+.content {
+    height: 75vh;
+    overflow-y: scroll;
+}
+.cross:hover {
+    color: rgb(255, 234, 234);
+    cursor: pointer;
+    background-color: rgb(255, 86, 86);
+    border-radius: 50%;
+    border: 0px;
+}
+
+.header {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(0, 98, 128);
+    text-align: center;
+    letter-spacing: 1px;
+}

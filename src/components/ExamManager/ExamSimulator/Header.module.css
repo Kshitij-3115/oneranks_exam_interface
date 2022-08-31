@@ -1,0 +1,63 @@
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 1px;
+    font-family: 'roboto', sans-serif; 
+    font-weight: 400 ;
+    color: rgb(136, 136, 136);
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container span {
+    padding: 5px 10px;
+    margin-left: 3px;
+    margin-top: 10px;
+    color: rgb(149, 68, 1);
+    font-size: 17px;
+    font-weight: 400;
+    text-shadow: 0px 0.5px rgb(255, 157, 0);
+    border-radius: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.container button {
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(255, 243, 225);
+    border: 1px solid rgb(180, 138, 0);
+    border-radius: 6px;
+    color: rgb(155, 95, 0);
+    font-family: 'roboto', 'sans-serif';
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 4px 10px;
+}
+
+.container button:hover {
+    cursor: pointer ;
+    border: 1px solid rgb(255, 178, 12);
+    background-color: rgb(255, 215, 155);
+    /* box-shadow: 0px 0px 1px 2px rgb(255, 242, 183); */
+    animation: ease-in;
+    color:rgb(63, 39, 0); 
+}
+
+/*---------------------------------- */ 
+.cross {
+    float: right;
+    margin-top: -10px;
+    color: red;
+    margin-right: -5px;
+}
+
+.cross:hover {
+    color: rgb(255, 234, 234);
+    cursor: pointer;
+    background-color: rgb(255, 86, 86);
+    border-radius: 50%;
+    border: 0px;
+}

@@ -1,0 +1,67 @@
+.popover {
+    /* background: none repeat scroll 0 0 rgb(255, 235, 235); */
+    border-radius : 10px; 
+    padding: 6px 10px; 
+    position: relative;
+    margin-top: 10px;
+    opacity: 0.95;
+    width: auto;
+
+    z-index: 2;
+    /* border:solid #fac4c4 1px; */
+    color: rgb(75, 74, 74);
+    font-size: 13px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    text-justify: initial;
+    font-weight: 400;
+    /* letter-spacing: 1px; */
+}
+
+.popover:after, .popover:before {
+    bottom: 100%;
+	left: 15%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.popover:after {
+    border-color: rgba(255, 0, 0, 0);
+	/* border-bottom-color: rgb(255, 235, 235); */
+	border-width: 7px;
+	margin-left: -7px;
+}
+
+.popover:before {
+    border-color: rgba(255, 0, 0, 0);
+	/* border-bottom-color: #ffbaba; */
+	border-width: 9px;
+	margin-left: -9px;
+}
+
+.valid-popover {
+     background: none repeat scroll 0 0 rgb(223, 255, 222); 
+     border:solid #7fd5a9 1px; 
+}
+
+.valid-popover:before {
+    border-bottom-color: #7fd5a9; 
+}
+.valid-popover:after {
+    border-bottom-color: rgb(223, 255, 222);
+}
+
+.invalid-popover {
+    background: none repeat scroll 0 0 rgb(255, 235, 235); 
+    border:solid #fac4c4 1px; 
+}
+
+.invalid-popover:before {
+   border-bottom-color: #ffbaba; 
+}
+.invalid-popover:after {
+   border-bottom-color: rgb(255, 235, 235);
+}
